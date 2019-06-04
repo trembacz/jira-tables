@@ -1,0 +1,23 @@
+{
+    "presets": [
+        "@babel/preset-react",
+        [
+            "@babel/preset-env",
+            {
+                "targets": {
+                    "browsers": [
+                        "last 1 version",
+                    ]
+				},
+				"corejs": 3,
+                "useBuiltIns": "usage",
+                "loose": true,
+                "debug": false
+            }
+        ]
+    ],
+    "env": {
+        "production": {}
+    },
+    "plugins": []
+}
