@@ -27,6 +27,13 @@ const TableItem = (props) => {
 		props.dispatch(changeItemValue(sectionIndex, itemIndex, trkey, tdkey, e.currentTarget.value, type));
 	};
 
+	// create blank item if nothing is prefilled in config
+	if (data.items && data.items.length === 0) {
+		const arr = new Array(data.headers.length).fill('', 0, data.headers.length);
+		data.indexItems !== undefined && ( arr[data.indexItems] = '1' );
+		data.items.push(arr);
+	}
+
 	return (
 		<table className="confluenceTable">
 			<tbody>
@@ -58,6 +65,8 @@ const TableItem = (props) => {
 				{/* Items */}
 				{data.items && (
 					data.items.map((trItem, trIndex) => {
+						const addClass = ['confluenceTd', 'remove-item'];
+						(trIndex === 0) && addClass.push('disabled-btn');
 						return (
 							<tr key={trIndex} className="confluenceTr">
 								{trItem.map((tdItem, tdIndex) => {
@@ -80,7 +89,7 @@ const TableItem = (props) => {
 									);
 								})}
 								{data.addItems && (
-									<td className="confluenceTd remove-item" data-trkey={trIndex} onClick={removeTableItemEvent}>
+									<td className={addClass.join(' ')} data-trkey={trIndex} onClick={trIndex > 0 ? removeTableItemEvent : null}>
 										<span>x</span>
 									</td>
 								)}

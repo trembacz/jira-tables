@@ -20,9 +20,7 @@ var templateConfig = {
 							wrapper: '|'
 						}
 					],
-					items: [
-						[ '', '' ]
-					]
+					items: []
 				},
 				{
 					addItems: true,
@@ -37,9 +35,7 @@ var templateConfig = {
 							wrapper: '|'
 						}
 					],
-					items: [
-						[ '', '' ]
-					]
+					items: []
 				},
 				{
 					addItems: true,
@@ -50,9 +46,7 @@ var templateConfig = {
 							wrapper: '|'
 						}
 					],
-					items: [
-						[ '' ]
-					]
+					items: []
 				},
 				{
 					blankLine: 'after',
@@ -62,9 +56,7 @@ var templateConfig = {
 							wrapper: '|'
 						}
 					],
-					items: [
-						[ '' ]
-					]
+					items: []
 				}
 			]
 		},
