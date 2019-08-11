@@ -1,10 +1,10 @@
-# Jira tables
+# JIRA tables
 
 If you are tired of creating tables in Jira, this is your saviour!<br>
 Based on the config JSON file, generate your dream table where you just need to fill the content.
 
 ## Application
-![](https://i.imgur.com/PuIJw3m.png "Tables")
+![](https://i.imgur.com/PuIJw3m.png "Filling forms")
 
 ## Output in JIRA
 ![](https://i.imgur.com/Lvr9z4n.png "Jira view")
