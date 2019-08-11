@@ -39,7 +39,7 @@ Based on the config JSON file, generate your dream table where you just need to 
 | ```blankLine```       | ```after``` / ```before``` / ```both``` | Use this if you need to add extra blank lines between table elements |
 | ```items```           | ```array```  | Array with the items that will be automatically filled in the table element |
 | ```headers```         | ```array```  | Array with the table headers |
-| ```headers -> title```  | ```string```  | Array with the table headers |
+| ```headers -> title```  | ```string```  | Header title |
 | ```headers -> wrapper```| ```\|```  | Extra wrapper for the title string |
 | ```headers -> editable```| ```true``` / ```false```  | Should header title be editable |
 
