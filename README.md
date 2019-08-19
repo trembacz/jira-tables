@@ -1,7 +1,7 @@
 # JIRA tables
 
 If you are tired of creating tables in JIRA, this is your saviour!<br>
-Based on the config JSON file, generate your dream table where you just need to fill the content and just paste into the JIRA.
+Based on the config JSON file, generate your dream table where you just need to fill the content and paste into the JIRA.
 
 ## Application
 ![](https://i.imgur.com/PuIJw3m.png "Filling forms")
