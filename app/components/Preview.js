@@ -22,7 +22,7 @@ const Preview = (props) => {
 						});
 
 						// add empty line before the headers if provided in config
-						outputText += (tableItem.blankLine === 'before' || tableItem.blankLine === 'both') ? '\n' : '';
+						(tableItem.blankLine === 'before' || tableItem.blankLine === 'both') && (outputText += '\n');
 
 						// append header into output
 						outputText += `|${headerText}|\n`;
