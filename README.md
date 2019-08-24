@@ -1,7 +1,7 @@
 # JIRA tables
 
 If you are tired of creating tables in JIRA, this is your saviour!<br>
-Based on the config JSON file, generate your dream table where you just need to fill the content and just paste into the JIRA.
+Based on the config JSON file, generate your dream table where you just need to fill the content and paste into the JIRA.
 
 ## Application
 ![](https://i.imgur.com/PuIJw3m.png "Filling forms")
@@ -39,9 +39,9 @@ Based on the config JSON file, generate your dream table where you just need to 
 | ```blankLine```       | ```after``` / ```before``` / ```both``` | Use this if you need to add extra blank lines between table elements |
 | ```items```           | ```array```  | Array with the items that will be automatically filled in the table element |
 | ```headers```         | ```array```  | Array with the table headers |
-| ```headers -> title```  | ```string```  | Header title |
-| ```headers -> wrapper```| ```\|```  | Extra wrapper for the title string |
-| ```headers -> editable```| ```true``` / ```false```  | Should header title be editable |
+| ```headers->title```  | ```string```  | Header title |
+| ```headers->wrapper```| ```\|```  | Extra wrapper for the title string |
+| ```headers->editable```| ```true``` / ```false```  | Should header title be editable |
 
 ```
 {
